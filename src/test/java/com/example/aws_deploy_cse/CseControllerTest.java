@@ -13,7 +13,7 @@ public class CseControllerTest {
     CseController c;
     @Test
     void test(){
-        int result=c.addCSE(2,3);
+        String result=c.addCSE(2,3);
         assertEquals(5, result);
     }
 

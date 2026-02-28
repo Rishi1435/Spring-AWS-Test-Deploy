@@ -9,8 +9,9 @@ import org.springframework.web.bind.annotation.RequestParam;
 public class CseController {
 
     @GetMapping("/cseadd")
-    public int addCSE(@RequestParam int a,@RequestParam int b) {
-        return a+b;
+    public String addCSE(@RequestParam int a,@RequestParam int b) {
+        int c=a+b;
+        return "Hello Aditya University. This is done by 23MH1A05O1. a+b= "+c;
     }
     
 }
