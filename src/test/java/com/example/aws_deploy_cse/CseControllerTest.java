@@ -14,7 +14,7 @@ public class CseControllerTest {
     @Test
     void test(){
         String result=c.addCSE(2,3);
-        assertEquals(5, result);
+        assertEquals("Hello Aditya University. This is done by 23MH1A05O1. a+b= 5", result);
     }
 
 }
